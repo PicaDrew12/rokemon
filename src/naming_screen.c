@@ -44,7 +44,7 @@ enum {
 };
 
 #define KBROW_COUNT 4
-#define KBCOL_COUNT 8
+#define KBCOL_COUNT 9
 
 enum {
     GFXTAG_BACK_BUTTON,
@@ -279,16 +279,16 @@ static const struct WindowTemplate sWindowTemplates[WIN_COUNT + 1] =
 // The keys shown on the keyboard are handled separately by sNamingScreenKeyboardText
 static const u8 sKeyboardChars[KBPAGE_COUNT][KBROW_COUNT][KBCOL_COUNT] = {
     [KEYBOARD_LETTERS_LOWER] = {
-        __("abcdef ."),
-        __("ghijkl ,"),
-        __("mnopqrs "),
-        __("tuvwxyz "),
+        __("abcdefș. "),
+        __("ghijklț, "),
+        __("mnopqrsă "),
+        __("tuvwxyzî "),
     },
     [KEYBOARD_LETTERS_UPPER] = {
-        __("ABCDEF ."),
-        __("GHIJKL ,"),
-        __("MNOPQRS "),
-        __("TUVWXYZ "),
+        __("ABCDEFȘ. "),
+        __("GHIJKLȚ, "),
+        __("MNOPQRSĂ "),
+        __("TUVWXYZÎ "),
     },
     [KEYBOARD_SYMBOLS] = {
         __("01234   "),
