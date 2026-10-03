@@ -53,7 +53,7 @@ static u16 sSavedRCnt;
 
 static const struct TrainerHillTrainer sTrainerHillTrainerTemplates_JP[] = {
     [0] = {
-        .name = __("マキエ$$$$$   "),
+        .name = __("MAKIE$$$   "),
         .facilityClass = FACILITY_CLASS_HEX_MANIAC,
         .unused = 0x1,
         .speechBefore = { EC_WORD_PREPOSTEROUS, EC_WORD_CASE, EC_WORD_THERE, EC_WORD_TO_HER, EC_WORD_CHALLENGE, EC_WORD_JOKING },
@@ -83,7 +83,7 @@ static const struct TrainerHillTrainer sTrainerHillTrainerTemplates_JP[] = {
                 .spDefenseIV = 5,
                 .abilityNum = 1,
                 .personality = 0x80,
-                .nickname = __("マルノーム$$$$$$"),
+                .nickname = __("SWALOT$$$$$"),
                 .friendship = MAX_FRIENDSHIP
             },
             [4] = {
@@ -105,7 +105,7 @@ static const struct TrainerHillTrainer sTrainerHillTrainerTemplates_JP[] = {
                 .spDefenseIV = 5,
                 .abilityNum = 0,
                 .personality = 0x6,
-                .nickname = __("ドクケイル$$$$$$"),
+                .nickname = __("DUSTOX$$$$$"),
                 .friendship = MAX_FRIENDSHIP
             },
             [5] = {
@@ -127,13 +127,13 @@ static const struct TrainerHillTrainer sTrainerHillTrainerTemplates_JP[] = {
                 .spDefenseIV = 5,
                 .abilityNum = 0,
                 .personality = 0x2f,
-                .nickname = __("ジーランス$$$$$$"),
+                .nickname = __("RELICANTH$$"),
                 .friendship = MAX_FRIENDSHIP
             },
         }
     },
     [1] = {
-        .name = __("ハルヒト$$$$   "),
+        .name = __("HARUHITO   "),
         .facilityClass = FACILITY_CLASS_CAMPER,
         .unused = 0x1,
         .speechBefore = { EC_MOVE2(BOUNCE), EC_WORD_AS_MUCH_AS, EC_EMPTY_WORD, EC_WORD_THEY_RE, EC_WORD_STRONG, EC_WORD_EXCL },
@@ -163,7 +163,7 @@ static const struct TrainerHillTrainer sTrainerHillTrainerTemplates_JP[] = {
                 .spDefenseIV = 5,
                 .abilityNum = 0,
                 .personality = 0x8c,
-                .nickname = __("ノクタス$$$$$$$"),
+                .nickname = __("CACTURNE$$$"),
                 .friendship = MAX_FRIENDSHIP
             },
             [4] = {
@@ -185,7 +185,7 @@ static const struct TrainerHillTrainer sTrainerHillTrainerTemplates_JP[] = {
                 .spDefenseIV = 5,
                 .abilityNum = 0,
                 .personality = 0x80,
-                .nickname = __("オオスバメ$$$$$$"),
+                .nickname = __("SWELLOW$$$$"),
                 .friendship = MAX_FRIENDSHIP
             },
             [5] = {
@@ -207,13 +207,13 @@ static const struct TrainerHillTrainer sTrainerHillTrainerTemplates_JP[] = {
                 .spDefenseIV = 5,
                 .abilityNum = 0,
                 .personality = 0x0,
-                .nickname = __("ナマズン$$$$$$$"),
+                .nickname = __("WHISCASH$$$"),
                 .friendship = MAX_FRIENDSHIP
             },
         }
     },
     [2] = {
-        .name = __("メイコ$$$$$   "),
+        .name = __("MEIKO$$$   "),
         .facilityClass = FACILITY_CLASS_SCHOOL_KID_F,
         .unused = 0x1,
         .speechBefore = { EC_WORD_SHINE, EC_WORD_POKEMON, EC_WORD_RELEASE, EC_WORD_WAS, EC_MOVE2(FRUSTRATION), EC_WORD_WITHOUT },
@@ -243,7 +243,7 @@ static const struct TrainerHillTrainer sTrainerHillTrainerTemplates_JP[] = {
                 .spDefenseIV = 5,
                 .abilityNum = 0,
                 .personality = 0x3,
-                .nickname = __("エネコロロ$$$$$$"),
+                .nickname = __("DELCATTY$$$"),
                 .friendship = MAX_FRIENDSHIP
             },
             [4] = {
@@ -265,7 +265,7 @@ static const struct TrainerHillTrainer sTrainerHillTrainerTemplates_JP[] = {
                 .spDefenseIV = 5,
                 .abilityNum = 1,
                 .personality = 0x6,
-                .nickname = __("ロゼリア$$$$$$$"),
+                .nickname = __("ROSELIA$$$$"),
                 .friendship = MAX_FRIENDSHIP
             },
             [5] = {
@@ -287,13 +287,13 @@ static const struct TrainerHillTrainer sTrainerHillTrainerTemplates_JP[] = {
                 .spDefenseIV = 5,
                 .abilityNum = 0,
                 .personality = 0x6,
-                .nickname = __("アゲハント$$$$$$"),
+                .nickname = __("BEAUTIFLY$$"),
                 .friendship = MAX_FRIENDSHIP
             },
         }
     },
     [3] = {
-        .name = __("ピエール$$$$   "),
+        .name = __("PIERRE$$   "),
         .facilityClass = FACILITY_CLASS_GENTLEMAN,
         .unused = 0x1,
         .speechBefore = { EC_WORD_SHE_WAS, EC_WORD_NO_1, EC_WORD_STRONG, EC_WORD_UNCLE, EC_WORD_THERE, EC_WORD_EXCL },
@@ -323,7 +323,7 @@ static const struct TrainerHillTrainer sTrainerHillTrainerTemplates_JP[] = {
                 .spDefenseIV = 5,
                 .abilityNum = 1,
                 .personality = 0x0,
-                .nickname = __("クチート$$$$$$$"),
+                .nickname = __("MAWILE$$$$$"),
                 .friendship = MAX_FRIENDSHIP
             },
             [4] = {
@@ -345,7 +345,7 @@ static const struct TrainerHillTrainer sTrainerHillTrainerTemplates_JP[] = {
                 .spDefenseIV = 5,
                 .abilityNum = 0,
                 .personality = 0x96,
-                .nickname = __("サメハダー$$$$$$"),
+                .nickname = __("SHARPEDO$$$"),
                 .friendship = MAX_FRIENDSHIP
             },
             [5] = {
@@ -367,7 +367,7 @@ static const struct TrainerHillTrainer sTrainerHillTrainerTemplates_JP[] = {
                 .spDefenseIV = 5,
                 .abilityNum = 0,
                 .personality = 0x96,
-                .nickname = __("ジュペッタ$$$$$$"),
+                .nickname = __("BANETTE$$$$"),
                 .friendship = MAX_FRIENDSHIP
             },
         }

@@ -7,7 +7,7 @@ gText_Birch_Welcome::
 	.string "$"
 
 gText_Birch_Pokemon::
-	.string "Acesta este un “POKEMON.”\p"
+	.string "Acesta este un POKEMON.\p"
 	.string "\n"
 	.string "$"
 
@@ -20,8 +20,8 @@ gText_Birch_MainSpeech::
 	.string "Și uneori, formăm o echipă\n"
 	.string "și luptăm cu alții ca și noi.\p"
 	.string "Dar totuși în ciuda relației strânse\n"
-	.string "nu cunoaștem tot despre POKEMONI.\p"
-	.string "Defapt sunt o sumedenie de \n"
+	.string "nu cunoaștem totul despre POKEMONI.\p"
+	.string "De fapt sunt o sumedenie de \n"
 	.string "secrete în ceea ce privește POKEMONII.\p"
 	.string "Pentru a le descoperii secretele,\n"
 	.string "Am început să îi studiez.\l"
@@ -44,7 +44,7 @@ gText_Birch_SoItsPlayer::
 
 gText_Birch_YourePlayer::
 	.string "Ah, bine!\p"
-	.string "You're {PLAYER}{KUN} who's moving to my\n"
+	.string "Tu ești {GEN}cel{GEN_SEP}cea{GEN_END} care se va muta\n"
 	.string "hometown of LITTLEROOT.\l"
 	.string "I get it now!\p"
 	.string "$"

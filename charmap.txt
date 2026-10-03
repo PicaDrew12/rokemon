@@ -346,6 +346,10 @@ MAXIE          = FD 0B
 KYOGRE         = FD 0C
 GROUDON        = FD 0D
 
+GEN     = FD 40
+GEN_SEP = FD 41
+GEN_END = FD 42
+
 @ battle string placeholders
 
 B_BUFF1 = FD 00
@@ -1083,6 +1087,7 @@ EMOJI_TIRED = F9 FB
 EMOJI_NEUTRAL = F9 FC
 EMOJI_SHOCKED = F9 FD
 EMOJI_BIGANGER = F9 FE
+
 
 '\l' = FA @ scroll up window text
 '\p' = FB @ new paragraph

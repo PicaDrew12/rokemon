@@ -89,7 +89,7 @@ static const u8 *const sCompatibilityMessages[] =
     gDaycareText_PlayOther
 };
 
-static const u8 sJapaneseEggNickname[] = _("タマゴ"); // "tamago" ("egg" in Japanese)
+static const u8 sJapaneseEggNickname[] = _("Egg"); // "tamago" ("egg" in Japanese)
 
 u8 *GetMonNickname2(struct Pokemon *mon, u8 *dest)
 {

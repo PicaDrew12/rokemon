@@ -46,7 +46,7 @@ static const u8 sText_ChooseAPkmn[] = _("Choose a POKéMON.");
 static const u8 sText_Summary[] = _("SUMMARY");
 static const u8 sText_Trade[] = _("TRADE");
 static const u8 sText_CancelTrade[] = _("Cancel trade?");
-static const u8 sJPText_PressBButtonToQuit[] = _("Bボタン　で　もどります");
+static const u8 sJPText_PressBButtonToQuit[] = _("Press B to go back");
 static const u8 sText_Summary2[] = _("SUMMARY");
 static const u8 sText_Trade2[] = _("TRADE");
 static const u8 sText_CommunicationStandby[] = _("{COLOR DARK_GRAY}{HIGHLIGHT WHITE}{SHADOW LIGHT_GRAY}Communication standby…\nPlease wait.");
@@ -614,7 +614,7 @@ static const struct WindowTemplate sTradeYesNoWindowTemplate =
     .baseBlock = 582
 };
 
-static const u8 sText_ShedinjaJP[] = _("ヌケニン");
+static const u8 sText_ShedinjaJP[] = _("Shedinja");
 static const u8 sSelectedMonLevelGenderCoords[3][2] =
 {
     [TRADE_PLAYER]  = {4,  3},

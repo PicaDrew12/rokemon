@@ -332,6 +332,32 @@ u8 *ConvertIntToHexStringN(u8 *dest, s32 value, enum StringConvertMode mode, u8 
     return dest;
 }
 
+// src points just past "FD GEN". Copies the wanted branch to *dest
+// and returns a pointer just past "FD GEN_END".
+static const u8 *CopyGenderBranch(u8 **dest, const u8 *src, u8 branchWanted)
+{
+    u8 branch = 0;
+
+    while (*src != EOS)
+    {
+        if (*src == PLACEHOLDER_BEGIN)
+        {
+            if (src[1] == PLACEHOLDER_ID_GEN_SEP)
+            {
+                branch++;
+                src += 2;
+                continue;
+            }
+            if (src[1] == PLACEHOLDER_ID_GEN_END)
+                return src + 2;
+        }
+        if (branch == branchWanted)
+            *(*dest)++ = *src;
+        src++;
+    }
+    return src;
+}
+
 u8 *StringExpandPlaceholders(u8 *dest, const u8 *src)
 {
     for (;;)
@@ -343,10 +369,15 @@ u8 *StringExpandPlaceholders(u8 *dest, const u8 *src)
         switch (c)
         {
         case PLACEHOLDER_BEGIN:
-            placeholderId = *src++;
-            expandedString = GetExpandedPlaceholder(placeholderId);
-            dest = StringExpandPlaceholders(dest, expandedString);
+        placeholderId = *src++;
+        if (placeholderId == PLACEHOLDER_ID_GEN)
+        {
+            src = CopyGenderBranch(&dest, src, gSaveBlock2Ptr->playerGender == FEMALE);
             break;
+        }
+        expandedString = GetExpandedPlaceholder(placeholderId);
+        dest = StringExpandPlaceholders(dest, expandedString);
+        break;
         case EXT_CTRL_CODE_BEGIN:
             *dest++ = c;
             c = *src++;

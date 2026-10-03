@@ -23,7 +23,7 @@ static const struct TrainerHillFloor sFloors_JPDefault[] = {
         .trainerNum2 = 0,
         .trainers = {
             [0] = {
-                .name = __("シゲノブ$$$$   "),
+                .name = __("SHIGENOBU  "),
                 .facilityClass = FACILITY_CLASS_YOUNGSTER,
                 .unused = TRUE,
                 .speechBefore = { EC_WORD_TRAINER, EC_WORD_MRS, EC_WORD_EXCL, EC_WORD_THEY_WERE, EC_WORD_OPPONENT, EC_WORD_CAN },
@@ -49,7 +49,7 @@ static const struct TrainerHillFloor sFloors_JPDefault[] = {
                         .spDefenseIV = 5,
                         .abilityNum = 0,
                         .personality = 0x80,
-                        .nickname = __("ジグザグマ$$$$$$"),
+                        .nickname = __("ZIGZAGOON$$"),
                         .friendship = MAX_FRIENDSHIP
                     },
                     [1] = {
@@ -69,7 +69,7 @@ static const struct TrainerHillFloor sFloors_JPDefault[] = {
                         .spDefenseIV = 5,
                         .abilityNum = 0,
                         .personality = 0x0,
-                        .nickname = __("キノココ$$$$$$$"),
+                        .nickname = __("SHROOMISH$$"),
                         .friendship = MAX_FRIENDSHIP
                     },
                     [2] = {
@@ -89,7 +89,7 @@ static const struct TrainerHillFloor sFloors_JPDefault[] = {
                         .spDefenseIV = 5,
                         .abilityNum = 0,
                         .personality = 0x80,
-                        .nickname = __("サンド$$$$$$$$"),
+                        .nickname = __("SANDSHREW$$"),
                         .friendship = MAX_FRIENDSHIP
                     },
                     [3] = DUMMY_HILL_MON,
@@ -98,7 +98,7 @@ static const struct TrainerHillFloor sFloors_JPDefault[] = {
                 }
             },
             [1] = {
-                .name = __("アカリ$$$$$   "),
+                .name = __("AKARI$$$   "),
                 .facilityClass = FACILITY_CLASS_PARASOL_LADY,
                 .unused = TRUE,
                 .speechBefore = { EC_WORD_SHE, EC_WORD_EVERY, EC_WORD_TYPE, EC_WORD_ADORE, EC_WORD_FOR, EC_WORD_EXCL },
@@ -127,7 +127,7 @@ static const struct TrainerHillFloor sFloors_JPDefault[] = {
                         .spDefenseIV = 5,
                         .abilityNum = 0,
                         .personality = 0x0,
-                        .nickname = __("キャモメ$$$$$$$"),
+                        .nickname = __("WINGULL$$$$"),
                         .friendship = MAX_FRIENDSHIP
                     },
                     [4] = {
@@ -148,7 +148,7 @@ static const struct TrainerHillFloor sFloors_JPDefault[] = {
                         .spDefenseIV = 5,
                         .abilityNum = 0,
                         .personality = 0x96,
-                        .nickname = __("ドンメル$$$$$$$"),
+                        .nickname = __("NUMEL$$$$$$"),
                         .friendship = MAX_FRIENDSHIP
                     },
                     [5] = {
@@ -169,7 +169,7 @@ static const struct TrainerHillFloor sFloors_JPDefault[] = {
                         .spDefenseIV = 5,
                         .abilityNum = 0,
                         .personality = 0x0,
-                        .nickname = __("アメタマ$$$$$$$"),
+                        .nickname = __("SURSKIT$$$$"),
                         .friendship = MAX_FRIENDSHIP
                     },
                 }
@@ -188,7 +188,7 @@ static const struct TrainerHillFloor sFloors_JPDefault[] = {
         .trainerNum2 = 0,
         .trainers = {
             [0] = {
-                .name = __("シゲゾウ$$$$   "),
+                .name = __("SHIGEZOU   "),
                 .facilityClass = FACILITY_CLASS_NINJA_BOY,
                 .unused = TRUE,
                 .speechBefore = { EC_WORD_WIN, EC_WORD_UNTIL, EC_WORD_DAUGHTER, EC_MOVE(CONSTRICT), EC_WORD_OF, EC_WORD_WERE },
@@ -213,7 +213,7 @@ static const struct TrainerHillFloor sFloors_JPDefault[] = {
                         .spDefenseIV = 5,
                         .abilityNum = 1,
                         .personality = 0x0,
-                        .nickname = __("ラクライ$$$$$$$"),
+                        .nickname = __("ELECTRIKE$$"),
                         .friendship = MAX_FRIENDSHIP
                     },
                     [1] = {
@@ -234,7 +234,7 @@ static const struct TrainerHillFloor sFloors_JPDefault[] = {
                         .spDefenseIV = 5,
                         .abilityNum = 1,
                         .personality = 0x96,
-                        .nickname = __("ヘイガニ$$$$$$$"),
+                        .nickname = __("CORPHISH$$$"),
                         .friendship = MAX_FRIENDSHIP
                     },
                     [2] = {
@@ -255,7 +255,7 @@ static const struct TrainerHillFloor sFloors_JPDefault[] = {
                         .spDefenseIV = 5,
                         .abilityNum = 0,
                         .personality = 0x96,
-                        .nickname = __("ヤジロン$$$$$$$"),
+                        .nickname = __("BALTOY$$$$$"),
                         .friendship = MAX_FRIENDSHIP
                     },
                     [3] = DUMMY_HILL_MON,
@@ -264,7 +264,7 @@ static const struct TrainerHillFloor sFloors_JPDefault[] = {
                 }
             },
             [1] = {
-                .name = __("ナミコ$$$$$   "),
+                .name = __("NAMIKO$$   "),
                 .facilityClass = FACILITY_CLASS_BEAUTY,
                 .unused = TRUE,
                 .speechBefore = { EC_WORD_SISTER, EC_WORD_ALTHOUGH, EC_WORD_KIND, EC_WORD_MATCH, EC_WORD_PLEASE, EC_WORD_WITHOUT },
@@ -293,7 +293,7 @@ static const struct TrainerHillFloor sFloors_JPDefault[] = {
                         .spDefenseIV = 5,
                         .abilityNum = 0,
                         .personality = 0x80,
-                        .nickname = __("タマザラシ$$$$$$"),
+                        .nickname = __("SPHEAL$$$$$"),
                         .friendship = MAX_FRIENDSHIP
                     },
                     [4] = {
@@ -314,7 +314,7 @@ static const struct TrainerHillFloor sFloors_JPDefault[] = {
                         .spDefenseIV = 5,
                         .abilityNum = 1,
                         .personality = 0xf,
-                        .nickname = __("バネブー$$$$$$$"),
+                        .nickname = __("SPOINK$$$$$"),
                         .friendship = MAX_FRIENDSHIP
                     },
                     [5] = {
@@ -336,7 +336,7 @@ static const struct TrainerHillFloor sFloors_JPDefault[] = {
                         .spDefenseIV = 5,
                         .abilityNum = 0,
                         .personality = 0x96,
-                        .nickname = __("ポチエナ$$$$$$$"),
+                        .nickname = __("POOCHYENA$$"),
                         .friendship = MAX_FRIENDSHIP
                     },
                 }

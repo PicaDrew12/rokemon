@@ -269,7 +269,7 @@ const struct SpriteTemplate gUnusedBattleInitSprite =
     .callback = SpriteCB_UnusedBattleInit,
 };
 
-static const u8 sText_ShedinjaJpnName[] = _("ヌケニン"); // Nukenin
+static const u8 sText_ShedinjaJpnName[] = _("Shedinja"); // Nukenin
 
 const struct OamData gOamData_BattleSpriteOpponentSide =
 {
@@ -565,14 +565,13 @@ static void (*const sEndTurnFuncsTable[])(void) =
     [B_OUTCOME_FORFEITED]         = HandleEndTurn_FinishBattle,
     [B_OUTCOME_MON_TELEPORTED]    = HandleEndTurn_FinishBattle,
 };
-
-const u8 gStatusConditionString_PoisonJpn[] = _("どく$$$$$");
-const u8 gStatusConditionString_SleepJpn[] = _("ねむり$$$$");
-const u8 gStatusConditionString_ParalysisJpn[] = _("まひ$$$$$");
-const u8 gStatusConditionString_BurnJpn[] = _("やけど$$$$");
-const u8 gStatusConditionString_IceJpn[] = _("こおり$$$$");
-const u8 gStatusConditionString_ConfusionJpn[] = _("こんらん$$$");
-const u8 gStatusConditionString_LoveJpn[] = _("メロメロ$$$");
+const u8 gStatusConditionString_PoisonJpn[] = _("PSN$$$$");
+const u8 gStatusConditionString_SleepJpn[] = _("SLP$$$$");
+const u8 gStatusConditionString_ParalysisJpn[] = _("PAR$$$$");
+const u8 gStatusConditionString_BurnJpn[] = _("BRN$$$$");
+const u8 gStatusConditionString_IceJpn[] = _("FRZ$$$$");
+const u8 gStatusConditionString_ConfusionJpn[] = _("CNF$$$$");
+const u8 gStatusConditionString_LoveJpn[] = _("LOV$$$$");
 
 const u8 *const gStatusConditionStringsTable[][2] =
 {
