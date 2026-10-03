@@ -43,7 +43,7 @@ gText_Birch_SoItsPlayer::
 	.string "Deci te numești {PLAYER}{KUN}?$"
 
 gText_Birch_YourePlayer::
-	.string "Ah, okay!\p"
+	.string "Ah, bine!\p"
 	.string "You're {PLAYER}{KUN} who's moving to my\n"
 	.string "hometown of LITTLEROOT.\l"
 	.string "I get it now!\p"
