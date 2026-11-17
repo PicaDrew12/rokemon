@@ -851,19 +851,19 @@ LittlerootTown_EventScript_GiveRunningShoes::
 	return
 
 LittlerootTown_Text_OurNewHomeLetsGoInside:
-	.string "MOM: {PLAYER}, we're here, honey!\p"
-	.string "It must be tiring riding with our things\n"
-	.string "in the moving truck.\p"
-	.string "Well, this is LITTLEROOT TOWN.\p"
-	.string "How do you like it?\n"
-	.string "This is our new home!\p"
-	.string "It has a quaint feel, but it seems to be\n"
-	.string "an easy place to live, don't you think?\p"
-	.string "And, you get your own room, {PLAYER}!\n"
-	.string "Let's go inside.$"
+	.string "MAMA: {PLAYER}, suntem aici în sfârșit!\p"
+	.string "Trebuie să fi {GEN}obosit{GEN_SEP}obosită{GEN_END} după drumul acesta\l"
+	.string "lung alături de toate lucrurile noastre\p"
+	.string "Ei bine, acesta e orășelul Rădăcinești\p"
+	.string "Ce părere ai? \n"
+	.string "Aceasta va fi noua noastră casă.\p"
+	.string "Are un aer ușor rustic, dar pare să fie\n"
+	.string "un loc liniștit, nu crezi?\p"
+	.string "Și, vei avea propia ta cameră,{PLAYER}!\n"
+	.string "Hai să intrăm.$"
 
 LittlerootTown_Text_WaitPlayer:
-	.string "MOM: Wait, {PLAYER}!$"
+	.string "MAMA: Așteaptă, {PLAYER}!$"
 
 LittlerootTown_Text_WearTheseRunningShoes:
 	.string "MOM: {PLAYER}! {PLAYER}! Did you\n"
@@ -899,9 +899,9 @@ LittlerootTown_Text_ComeHomeIfAnythingHappens:
 	.string "Go on, go get them, honey!$"
 
 LittlerootTown_Text_CanUsePCToStoreItems:
-	.string "If you use a PC, you can store items\n"
-	.string "and POKéMON.\p"
-	.string "The power of science is staggering!$"
+	.string "Dacă folosești un PC, poți să stochezi\n"
+	.string "obiecte și POKEMONI.\p"
+	.string "Puterea științei este incredibilă!$"
 
 LittlerootTown_Text_BirchSpendsDaysInLab:
 	.string "PROF. BIRCH spends days in his LAB\n"
@@ -920,13 +920,13 @@ LittlerootTown_Text_DangerousIfYouDontHavePokemon:
 	.string "your own POKéMON.$"
 
 LittlerootTown_Text_CanYouGoSeeWhatsHappening:
-	.string "Um, hi!\p"
-	.string "There are scary POKéMON outside!\n"
-	.string "I can hear their cries!\p"
-	.string "I want to go see what's going on,\n"
-	.string "but I don't have any POKéMON…\p"
-	.string "Can you go see what's happening\n"
-	.string "for me?$"
+	.string "Um, bună!\p"
+	.string "Sunt POKEMONI înfricoșători acolo!\n"
+	.string "Put să le aud sunetele!\p"
+	.string "Aș vrea să mă duc să văd ce se întâmplă,\n"
+	.string "dar nu am niciun POKEMON...\p"
+	.string "Poți să mergi să vezi ce se întâmplă\n"
+	.string "în locul meu?$"
 
 LittlerootTown_Text_YouSavedBirch:
 	.string "You saved PROF. BIRCH!\n"

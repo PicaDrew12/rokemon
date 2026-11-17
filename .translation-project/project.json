@@ -1,0 +1,114 @@
+{
+ "files": {
+  "zone:data/maps/LittlerootTown/scripts.inc": {
+   "t": {
+    "853": "MAMA: {PLAYER}, suntem aici în sfârșit!\\p",
+    "854": "Trebuie să fi #obosit-obosită după drumul acesta\\l",
+    "855": "lung alături de toate lucrurile noastre\\p",
+    "856": "Ei bine, acesta e orășelul Rădăcinești\\p",
+    "857": "Ce părere ai? \\n",
+    "858": "Aceasta va fi noua noastră casă.\\p",
+    "859": "Are un aer ușor rustic, dar pare să fie\\n",
+    "860": "un loc liniștit, nu crezi?\\p",
+    "861": "Și, vei avea propia ta cameră,{PLAYER}!\\n",
+    "862": "Hai să intrăm.$",
+    "865": "MAMA: Așteaptă, {PLAYER}!$",
+    "901": "Dacă folosești un PC, poți să stochezi\\n",
+    "902": "obiecte și POKEMONI.\\p",
+    "903": "Puterea științei este incredibilă!$",
+    "922": "Um, bună!\\p",
+    "923": "Sunt POKEMONI înfricoșători acolo!\\n",
+    "924": "Put să le aud sunetele!\\p",
+    "925": "Aș vrea să mă duc să văd ce se întâmplă,\\n",
+    "926": "dar nu am niciun POKEMON...\\p",
+    "927": "Poți să mergi să vezi ce se întâmplă\\n",
+    "928": "în locul meu?$"
+   },
+   "saved": "2026-10-07T18:11:31.103Z"
+  },
+  "zone:data/maps/InsideOfTruck/scripts.inc": {
+   "t": {
+    "54": "Cutia este printată cu un logo POKEMON.\\p",
+    "55": "Este o firmă POKEMON de mutări și\\n",
+    "56": "livrări.$"
+   },
+   "saved": "2026-10-04T09:45:54.831Z"
+  },
+  "zone:data/maps/LittlerootTown_BrendansHouse_1F/scripts.inc": {
+   "t": {
+    "277": "MAMA: Vezi, {PLAYER}?\\n",
+    "278": "Nu-i așa că este frumos și aici?$",
+    "281": "POKEMONII curierului se ocupă de tot\\n",
+    "282": "ce înseamnă mutat și curățat.\\l",
+    "283": "Cât de convenabil!\\p",
+    "284": "{PLAYER},camera ta este la etaj.\\n",
+    "285": "Du-te să vezi, #scumpule-scumpo!\\p",
+    "286": "TATĂL tău ți-a cumpărat un ceas now\\n",
+    "287": "ca și cadou de casă nouă.\\l",
+    "288": "Nu uita să îl setezi!$",
+    "291": "MAMA: Ei bine, {PLAYER}\\p",
+    "292": "Nu ai vrea să-ți vezi propia\\n",
+    "293": "ta cameră?$",
+    "296": "MAMA: {PLAYER}.\\p",
+    "297": "Setează ceasul din camera ta, #dragule-dragă.$",
+    "300": "MAMA: Oh! {PLAYER}, {PLAYER}!\\n",
+    "301": "Repede! Vino repede!$",
+    "304": "MAMA: Uite! Este ARENA din Petaleni! \\n",
+    "305": "Poate îl vor arăta pe tatăl tău!$",
+    "308": "MAMA: Oh... S-a terminat.\\p",
+    "309": "Cred că tatăl tău a fost, dar l-am ratat.\\n",
+    "310": "Păcat.$",
+    "313": "A, da.\\n",
+    "314": "Unul din prietenii tatălui tău locuiește.\\p",
+    "315": "aici. Numele lui este PROF. BIRCH.\\p",
+    "316": "Stă chiar vizavi, deci as trebuii\\l",
+    "317": "să mergi și să te prezinți.$",
+    "320": "MAMA: Pa pa, #dragule-dragă!$",
+    "323": "MOM: Te-ai prezentat \\n",
+    "324": "PROFESORULUI BIRCH?$",
+    "327": "MAMA: Ce mai faci, {PLAYER}?\\n",
+    "328": "Arăți un pic #obosit-obosită.\\p",
+    "329": "Cred că ar trebui să te odihnești puțin.$",
+    "332": "MAMA: Ai grijă, #dragule-dragă!$",
+    "335": "MAMA: Oh? Tatăl tău ți-a dat INSIGNA?\\p",
+    "336": "Atunci poftim ceva și din partea mea!$"
+   },
+   "saved": "2026-10-04T11:17:59.533Z"
+  },
+  "zone:data/maps/Route101/scripts.inc": {
+   "t": {
+    "253": "Ajutor!$",
+    "256": "Alo! Tu de acolo!\\n",
+    "257": "Te rog! Ajutor!\\p",
+    "258": "În VALIZA mea!\\n",
+    "259": "Este o MINGE POKEMON!$",
+    "262": "Unde pleci?!\\n",
+    "263": "Nu mă lăsa aici!$",
+    "266": "PROF. BIRCH:Vai...\\p",
+    "267": "Eram în iarba înaltă, studiind\\n",
+    "268": "POKEMONI sălbatici când a sărit pe mine.\\p",
+    "269": "M-ai salvat.\\n",
+    "270": "Mersi mult!\\p",
+    "271": "Oh?\\p",
+    "272": "Salut, tu ești {PLAYER}{KUN}!\\p",
+    "273": "Ăsta nu e un loc bun de discutat, vino\\n",
+    "274": "la LABORATORUL meu POKEMON ok?$",
+    "277": "Dacă POKEMONII obosesc,du-i la\\n",
+    "278": "un CENTRU POKEMON\\p",
+    "279": "ORĂȘELUL VĂLURENI este aproape\\n",
+    "280": "poți găsi un CENTRU POKEMON acolo.$",
+    "283": "POKEMONI SĂLBATICI vor sări spre tine\\n",
+    "284": "în iarba înaltă.\\p",
+    "285": "Dacă vrei să prinzi un POKEMON, trebuie\\n",
+    "286": "să mergi în iarba înaltă și să cauți.$",
+    "289": "RUTA 101\\n",
+    "290": "{UP_ARROW} VĂLURENI$"
+   },
+   "saved": "2026-10-05T18:28:35.624Z"
+  },
+  "zone:data/maps/LittlerootTown_ProfessorBirchsLab/scripts.inc": {
+   "t": {},
+   "saved": "2026-10-09T17:56:41.281Z"
+  }
+ }
+}

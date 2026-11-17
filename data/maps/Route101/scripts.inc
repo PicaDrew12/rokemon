@@ -251,42 +251,42 @@ Route101_Movement_BirchApproachPlayer:
 	step_end
 
 Route101_Text_HelpMe:
-	.string "H-help me!$"
+	.string "Ajutor!$"
 
 Route101_Text_PleaseHelp:
-	.string "Hello! You over there!\n"
-	.string "Please! Help!\p"
-	.string "In my BAG!\n"
-	.string "There's a POKé BALL!$"
+	.string "Alo! Tu de acolo!\n"
+	.string "Te rog! Ajutor!\p"
+	.string "În VALIZA mea!\n"
+	.string "Este o MINGE POKEMON!$"
 
 Route101_Text_DontLeaveMe:
-	.string "Wh-Where are you going?!\n"
-	.string "Don't leave me like this!$"
+	.string "Unde pleci?!\n"
+	.string "Nu mă lăsa aici!$"
 
 Route101_Text_YouSavedMe:
-	.string "PROF. BIRCH: Whew…\p"
-	.string "I was in the tall grass studying wild\n"
-	.string "POKéMON when I was jumped.\p"
-	.string "You saved me.\n"
-	.string "Thanks a lot!\p"
+	.string "PROF. BIRCH:Vai...\p"
+	.string "Eram în iarba înaltă, studiind\n"
+	.string "POKEMONI sălbatici când a sărit pe mine.\p"
+	.string "M-ai salvat.\n"
+	.string "Mersi mult!\p"
 	.string "Oh?\p"
-	.string "Hi, you're {PLAYER}{KUN}!\p"
-	.string "This is not the place to chat, so come\n"
-	.string "by my POKéMON LAB later, okay?$"
+	.string "Salut, tu ești {PLAYER}{KUN}!\p"
+	.string "Ăsta nu e un loc bun de discutat, vino\n"
+	.string "la LABORATORUL meu POKEMON ok?$"
 
 Route101_Text_TakeTiredPokemonToPokeCenter:
-	.string "If POKéMON get tired, take them to\n"
-	.string "a POKéMON CENTER.\p"
-	.string "There's a POKéMON CENTER in OLDALE\n"
-	.string "TOWN right close by.$"
+	.string "Dacă POKEMONII obosesc,du-i la\n"
+	.string "un CENTRU POKEMON\p"
+	.string "ORĂȘELUL VĂLURENI este aproape\n"
+	.string "poți găsi un CENTRU POKEMON acolo.$"
 
 Route101_Text_WildPokemonInTallGrass:
-	.string "Wild POKéMON will jump out at you in\n"
-	.string "tall grass.\p"
-	.string "If you want to catch POKéMON, you have\n"
-	.string "to go into the tall grass and search.$"
+	.string "POKEMONI SĂLBATICI vor sări spre tine\n"
+	.string "în iarba înaltă.\p"
+	.string "Dacă vrei să prinzi un POKEMON, trebuie\n"
+	.string "să mergi în iarba înaltă și să cauți.$"
 
 Route101_Text_RouteSign:
-	.string "ROUTE 101\n"
-	.string "{UP_ARROW} OLDALE TOWN$"
+	.string "RUTA 101\n"
+	.string "{UP_ARROW} VĂLURENI$"
 

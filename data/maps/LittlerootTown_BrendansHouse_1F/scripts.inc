@@ -275,66 +275,66 @@ LittlerootTown_BrendansHouse_1F_Movement_BrendanGoUpstairs2:
 	step_end
 
 PlayersHouse_1F_Text_IsntItNiceInHere:
-	.string "MOM: See, {PLAYER}?\n"
-	.string "Isn't it nice in here, too?$"
+	.string "MAMA: Vezi, {PLAYER}?\n"
+	.string "Nu-i așa că este frumos și aici?$"
 
 PlayersHouse_1F_Text_MoversPokemonGoSetClock:
-	.string "The mover's POKéMON do all the work\n"
-	.string "of moving us in and cleaning up after.\l"
-	.string "This is so convenient!\p"
-	.string "{PLAYER}, your room is upstairs.\n"
-	.string "Go check it out, dear!\p"
-	.string "DAD bought you a new clock to mark\n"
-	.string "our move here.\l"
-	.string "Don't forget to set it!$"
+	.string "POKEMONII curierului se ocupă de tot\n"
+	.string "ce înseamnă mutat și curățat.\l"
+	.string "Cât de convenabil!\p"
+	.string "{PLAYER},camera ta este la etaj.\n"
+	.string "Du-te să vezi, {GEN}scumpule{GEN_SEP}scumpo{GEN_END}!\p"
+	.string "TATĂL tău ți-a cumpărat un ceas now\n"
+	.string "ca și cadou de casă nouă.\l"
+	.string "Nu uita să îl setezi!$"
 
 PlayersHouse_1F_Text_ArentYouInterestedInRoom:
-	.string "MOM: Well, {PLAYER}?\p"
-	.string "Aren't you interested in seeing your\n"
-	.string "very own room?$"
+	.string "MAMA: Ei bine, {PLAYER}\p"
+	.string "Nu ai vrea să-ți vezi propia\n"
+	.string "ta cameră?$"
 
 PlayersHouse_1F_Text_GoSetTheClock:
-	.string "MOM: {PLAYER}.\p"
-	.string "Go set the clock in your room, honey.$"
+	.string "MAMA: {PLAYER}.\p"
+	.string "Setează ceasul din camera ta, {GEN}dragule{GEN_SEP}dragă{GEN_END}.$"
 
 PlayersHouse_1F_Text_OhComeQuickly:
-	.string "MOM: Oh! {PLAYER}, {PLAYER}!\n"
-	.string "Quick! Come quickly!$"
+	.string "MAMA: Oh! {PLAYER}, {PLAYER}!\n"
+	.string "Repede! Vino repede!$"
 
 PlayersHouse_1F_Text_MaybeDadWillBeOn:
-	.string "MOM: Look! It's PETALBURG GYM!\n"
-	.string "Maybe DAD will be on!$"
+	.string "MAMA: Uite! Este ARENA din Petaleni! \n"
+	.string "Poate îl vor arăta pe tatăl tău!$"
 
 PlayersHouse_1F_Text_ItsOverWeMissedHim:
-	.string "MOM: Oh… It's over.\p"
-	.string "I think DAD was on, but we missed him.\n"
-	.string "Too bad.$"
+	.string "MAMA: Oh... S-a terminat.\p"
+	.string "Cred că tatăl tău a fost, dar l-am ratat.\n"
+	.string "Păcat.$"
 
 PlayersHouse_1F_Text_GoIntroduceYourselfNextDoor:
-	.string "Oh, yes.\n"
-	.string "One of DAD's friends lives in town.\p"
-	.string "PROF. BIRCH is his name.\p"
-	.string "He lives right next door, so you should\n"
-	.string "go over and introduce yourself.$"
+	.string "A, da.\n"
+	.string "Unul din prietenii tatălui tău locuiește.\p"
+	.string "aici. Numele lui este PROF. BIRCH.\p"
+	.string "Stă chiar vizavi, deci as trebuii\l"
+	.string "să mergi și să te prezinți.$"
 
 PlayersHouse_1F_Text_SeeYouHoney:
-	.string "MOM: See you, honey!$"
+	.string "MAMA: Pa pa, {GEN}dragule{GEN_SEP}dragă{GEN_END}!$"
 
 PlayersHouse_1F_Text_DidYouMeetProfBirch:
-	.string "MOM: Did you introduce yourself to\n"
-	.string "PROF. BIRCH?$"
+	.string "MOM: Te-ai prezentat \n"
+	.string "PROFESORULUI BIRCH?$"
 
 PlayersHouse_1F_Text_YouShouldRestABit:
-	.string "MOM: How are you doing, {PLAYER}?\n"
-	.string "You look a little tired.\p"
-	.string "I think you should rest a bit.$"
+	.string "MAMA: Ce mai faci, {PLAYER}?\n"
+	.string "Arăți un pic {GEN}obosit{GEN_SEP}obosită{GEN_END}.\p"
+	.string "Cred că ar trebui să te odihnești puțin.$"
 
 PlayersHouse_1F_Text_TakeCareHoney:
-	.string "MOM: Take care, honey!$"
+	.string "MAMA: Ai grijă, {GEN}dragule{GEN_SEP}dragă{GEN_END}!$"
 
 PlayersHouse_1F_Text_GotDadsBadgeHeresSomethingFromMom:
-	.string "MOM: Oh? Did DAD give you that BADGE?\p"
-	.string "Then here's something from your MOM!$"
+	.string "MAMA: Oh? Tatăl tău ți-a dat INSIGNA?\p"
+	.string "Atunci poftim ceva și din partea mea!$"
 
 PlayersHouse_1F_Text_DontPushYourselfTooHard:
 	.string "Don't push yourself too hard, dear.\n"

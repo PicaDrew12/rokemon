@@ -3468,10 +3468,7 @@ u8 ItemBattleEffects(u8 caseID, u8 battler, bool8 moveTurn)
                         gBattleTextBuff2[1] = B_BUFF_STRING;
                         gBattleTextBuff2[2] = STRINGID_STATSHARPLY;
                         gBattleTextBuff2[3] = STRINGID_STATSHARPLY >> 8;
-                        gBattleTextBuff2[4] = B_BUFF_STRING;
-                        gBattleTextBuff2[5] = STRINGID_STATROSE;
-                        gBattleTextBuff2[6] = STRINGID_STATROSE >> 8;
-                        gBattleTextBuff2[7] = EOS;
+                        gBattleTextBuff2[4] = B_BUFF_EOS;
 
                         gEffectBattler = battler;
                         SET_STATCHANGER(i + 1, 2, FALSE);
